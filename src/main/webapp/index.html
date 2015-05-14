@@ -44,37 +44,44 @@
 		<!-- to that slide and the slide navigation when you use the down arrow will present that slide.	-->
 		<!-- To add another slide horizontally, just add the <section> element at the same level.			-->
 		<!-- end the container with the </div> section and the slides sections are completed.				-->
-		<!---------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------------------------------- -->
 		<!--						Slides go inside the <slides> container									-->
-		<!---------------------------------------------------------------------------------------------------->
+		<!------------------------------------------------------------------------------------------------- -->
 		
 		<div class="slides">
 		
 			<section>
-                <section><h1>Breeze</h1> <!-- Title slide -->
-                <br>
-                <br>
-                <br>
-                <em>[Presentation Title]</em>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br> <small>email: [thinkers@soabridge.com]
-                <br>Github:[github site for Breeze]
-                <br>Twitter:[Breeze Twitter Handle]</small>
+                <section>
+					<h1>Breeze</h1> <!-- Title slide -->
+                    <br>
+                    <br>
+                    <br>
+                    <em>[Presentation Title]</em>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br> <small>email: [thinkers@soabridge.com]
+                    <br>Github:[github site for Breeze]
+                    <br>Twitter:[Breeze Twitter Handle]</small>
                 </section>
-                <section> <!-- section break required for subslides -->
+
+				   <section><!-- section break required for subslides -->
+
 					<section>Slide - 1a</section>  <!-- Subtopic one for slide one -->
+					<br>
+					<br>
+					<br>
+					<em>[subtopic here!]</em>
+					<br>
+					<br>
+					<br>
+					<br>
+				   </section>
 
-
-
-
-
-                </section>
-					<section>Slide - 1b</section>  <!-- Subtopic two for slide one -->
-				</section>
-            </section> <!-- end of sub slides  -->
+     					<section>Slide - 1b</section>  <!-- Subtopic two for slide one -->
+                    </section>
+             </section><!-- end of sub slides  -->
 			<section><h2>Second Slide </h2></section>  <!-- first horizontal slide -->
 			
 			<Section><h2>Third Slide </h2></section>
@@ -168,6 +175,13 @@
 
 			// Parallax background size
 			parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+            dependencies: [
+
+               {src: 'plugin/notes/notes.js', async: true}
+               ]
+
+
 
             dependencies: [  {src: 'plugin/notes.js', async: true}   ]
 		});
