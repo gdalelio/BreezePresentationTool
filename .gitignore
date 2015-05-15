@@ -1,0 +1,50 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+ 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+# ignore temporary files
+*~
+*.save
+
+# ignore Maven generated target folders
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+# ignore IDEA files and folders
+*.iml
+*.ipr
+*.iws
+.idea
+out/
